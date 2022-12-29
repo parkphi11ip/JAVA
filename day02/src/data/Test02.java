@@ -1,11 +1,11 @@
-package day02;
+package data;
 
-public class hello {
+public class Test02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("aye");
+		System.out.println(16000*5);
 	}
 
 }
