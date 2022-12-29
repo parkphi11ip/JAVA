@@ -17,6 +17,7 @@ public class Test01 {
 		System.out.println("10");// 정수
 		System.out.println(1.4); // 실수
 		
+		
 		System.out.println(10+1.4);	//정수+실수=실수
 		System.out.println(10+20);	//정수+정수=정수
 		
