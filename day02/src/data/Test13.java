@@ -20,5 +20,4 @@ public class Test13 {
 		//System.out.println(pcfee);
 		System.out.println(Math.round(pcfee/ 100) * 100);
 	}
-
 }
