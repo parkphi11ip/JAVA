@@ -15,7 +15,7 @@ public class Test06 {
 		int mfee = 500/10;
 		
 		int intimeH = 13, intimeM = 30;		
-		int outtimeH = 13, outtimeM = 60;
+		int outtimeH = 13, outtimeM = 50;
 		//1h20m
 		
 		int prktimeH = outtimeH - intimeH;
@@ -30,7 +30,7 @@ public class Test06 {
 		
 				
 		if(prkin1hUnder) {
-			hfee = 5000;
+			System.out.println(hfee);
 		}
 		else {
 			System.out.println((5000*prktimeH)+(mfee*prktimeM));
