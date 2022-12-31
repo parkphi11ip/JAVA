@@ -17,11 +17,25 @@ public class Test08 {
 //		 1. 인원 수(명)
 //		 2. 여행 기간(일)
 //		 3. 여행 계획중인 달(1월~12월 사이)
-	
-	
-	
-	
-	
+		
+		int dfee = 100000;
+		int rate = 25;
+		
+		int tripday = 6, people = 9, month = 6;
+		
+		int summerSaleFee = (dfee*(100 - rate)/100)*tripday*people;
+		int fee = dfee*tripday*people;
+		
+		boolean tripMonth = month >= 6 && month <= 8;
+		
+		if(tripMonth) {
+			System.out.println(summerSaleFee 
+					+ "원입니다. 여름할인이 적용 되었습니다. ");
+		}
+		else {
+			System.out.println(fee
+					+ "원입니다. ");
+		}
 	
 	}
 

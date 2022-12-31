@@ -7,7 +7,7 @@ public class Test05 {
 		//어른은 만원 , 나머지는 오천원
 		
 
-		int age = 15;
+		int age = 414;
 		
 		boolean adult = age >= 20;
 		

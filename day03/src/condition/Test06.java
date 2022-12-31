@@ -27,9 +27,6 @@ public class Test06 {
 			
 		boolean prkin1hUnder = prktimeH == 0 && prktimeM <= 60;  
 		boolean prkin1hOver = prktimeH >= 1;
-		
-//		System.out.println(prktimeH);
-//		System.out.println(prktimeM);
 				
 		if(prkin1hUnder) {
 			System.out.println(hfee+"원입니다.");
@@ -38,7 +35,6 @@ public class Test06 {
 			System.out.println(hfee+(Overhfee*prktimeH-Overhfee)
 					+(mfee*prktimeM)+"원입니다.");
 		}
-				
 		
 	}
 
