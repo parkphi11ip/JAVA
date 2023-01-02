@@ -26,7 +26,7 @@ public class Test07 {
 		
 		boolean leapYear = (y % 4 == 0 && y % 100 != 0) || y % 400 == 0;
 		double springRate = 0.9, summerRate = 0.95, fallRate = 0.7, winterRate = 0.8;
-		double leapRate = 0.05;
+		double leapRate = 0.95;
 		
 		int pay = dfee*people*day;
 		
