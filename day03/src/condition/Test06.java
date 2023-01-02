@@ -20,7 +20,7 @@ public class Test06 {
 		int Overhfee = 3000;
 		
 		int intimeH = 13, intimeM = 30;		
-		int outtimeH = 13, outtimeM = 58;
+		int outtimeH = 14, outtimeM = 41;
 		
 		int prktimeH = outtimeH - intimeH;
 		int prktimeM = outtimeM - intimeM;

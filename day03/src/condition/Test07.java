@@ -16,7 +16,7 @@ public class Test07 {
 //
 //		자동차 속도를 입력값으로 설정한 뒤 예상되는 벌금을 출력(과속이 아니면 벌금은 없습니다)
 		
-		int speed = 41;
+		int speed = 49;
 		
 		int nomalPenalty =  30000;
 		int overPenalty = 10000;
@@ -33,6 +33,10 @@ public class Test07 {
 		if(overSpeed){
 			System.out.println((nomalPenalty+overKmFee
 			+ "원입니다 : 10km이상 빨라질때마다 벌금이 증가합니다. "));
+		}
+		else{
+			
+			
 		}
 		
 	}

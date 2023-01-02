@@ -19,7 +19,6 @@ public class Test05 {
 		else {
 			price = 5000;
 		}
-		
 		System.out.println(price);
 		
 	}
