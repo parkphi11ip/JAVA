@@ -1,6 +1,8 @@
 package condition2;
 
-public class Test04 {
+import javax.sql.rowset.WebRowSet;
+
+public class Test04_Ex {
 
 	public static void main(String[] args) {
 
@@ -27,35 +29,31 @@ public class Test04 {
 //		System.out.println("a = " + a);
 //		```
 		
-		int htime = 12, mtime = 32, stime = 21;
-		int nowhtime = 22, nowmtime = 33, nowstime = 55; 
-		
-		int wrotehtime = nowhtime - htime;
-		int wrotemtime = nowmtime - mtime; 
-		int wrotestime = nowstime - stime;
-		int wrotedtime = wrotehtime * 24;
-		
-//		int h = 1;
-//		int d = 24*h;
-//		int m = h/60;
-//		int s = m/60;
-		
-		if (wrotestime < 10 || wrotemtime == 0 || wrotehtime == 0) {
-			System.out.println("방금 전");
-		}
-		else if(wrotestime <= 60 ||wrotemtime < 1 || wrotehtime == 0) {
-			System.out.println(wrotestime+"초 전");
-		}
-		else if(wrotestime < 60 ||wrotemtime < 60 ||wrotehtime < 1
-				) {
-			System.out.println(wrotemtime+"분 전");
-		}
-		else if(wrotestime < 60 ||wrotemtime < 60 ||wrotehtime < 24||wrotedtime < 1 ) {
-			System.out.println(wrotehtime+"시간 전");
-		}
-		else {
-			System.out.println("오래 전");
-		}
+		//입력
+				int time = 13600;
+
+				//출력
+				if(time < 10) {//10초가 되지 않았다면
+					System.out.println("방금 전");
+				}
+				else if(time < 60) {//60초가 되지 않았다면
+					System.out.println(time+"초 전");
+				}
+				else if(time < 60 * 60) {//1시간이 되지 않았다면
+					int minute = time / 60;
+					System.out.println(minute+"분 전");
+				}
+				else if(time < 24 * 60 * 60) {//1일이 되지 않았다면
+					int hour = time / 60 / 60;
+					System.out.println(hour+"시간 전");
+				}
+				else if(time < 10 * 24 * 60 * 60) {//10일이 되지 않았다면
+					int day = time / 60 / 60 / 24;
+					System.out.println(day+"일 전");
+				}
+				else {
+					System.out.println("오래 전");
+				}
 	
 
 	}
