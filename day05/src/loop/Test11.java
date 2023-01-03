@@ -20,6 +20,8 @@ public class Test11 {
 			System.out.println("평균 | "+average);
 		}
 
+		sc.close();
+		
 		
 		
 		

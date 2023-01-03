@@ -1,8 +1,6 @@
 package loop;
 
-import java.util.Scanner;
-
-public class Test12 {
+public class Test12_plus {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,25 +22,10 @@ public class Test12 {
 //		 정답!
 //		 정답 개수 : 2
 //		 ```
-		Scanner sc = new Scanner(System.in);
+		
 
-			System.out.println("뭔 숫자?");
-			int y=sc.nextInt(); // left
-			System.out.println("몇단까지?");
-			int x=sc.nextInt(); // 몇단 까지
-			
 		
 		
-		for(int z=1; z<=x; z++) {
-			for(int j=y; j<=15; z++) {
-				System.out.println(j+" x "+z+" = "+z*j);
-				if(z==x){
-				      break; 
-			} 
-		} 
-		
-		}
 		
 	}
-
 }
