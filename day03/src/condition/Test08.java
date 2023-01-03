@@ -18,10 +18,10 @@ public class Test08 {
 //		 2. 여행 기간(일)
 //		 3. 여행 계획중인 달(1월~12월 사이)
 		
-		int dfee = 100000;
-		int rate = 25;
+		int dfee = 69000; // 1박에얼마
+		int rate = 15; // 할인율 
 		
-		int tripday = 6, people = 9, month = 6;
+		int tripday = 3, people = 2, month = 8;
 		
 		int summerSaleFee = (dfee*(100 - rate)/100)*tripday*people;
 		int fee = dfee*tripday*people;
