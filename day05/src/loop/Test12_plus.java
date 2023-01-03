@@ -15,7 +15,7 @@ public class Test12_plus {
 		System.out.println(" 몇 단? (9단까지 지원 됩니다.)");
 		int n = sc.nextInt(); 								// 인풋변수 지정. 
 		
-		for(int i=n; i<=9; i++) { 							// n = 인풋 변수 몇단부터 시작인가 지정. 
+		for(int i=n; i<=100; i++) { 							// n = 인풋 변수 몇단부터 시작인가 지정. 
 			System.out.println( n+"x"+i+"="+"?");
 			System.out.println(" 정답을 입력하세요.");
 			int answer = sc.nextInt(); 						// 인풋변수 지정 .
