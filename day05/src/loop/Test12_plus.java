@@ -29,7 +29,7 @@ public class Test12_plus {
 				System.out.println(" 땡 ㅠ ");
 			}
 			
-	}
+	}														//  반복문의 중요한 로
 		System.out.println("~~~~~~~~~~~~~~~~~~");
 		System.out.println(" 정답개수 : "+cnt);
 		System.out.println("~~~~~~~~~~~~~~~~~~");
