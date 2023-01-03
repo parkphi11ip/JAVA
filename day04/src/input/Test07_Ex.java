@@ -7,7 +7,7 @@ public class Test07_Ex {
 	public static void main(String[] args) {
 
 //		# Test07
-		//입력 : 이름, 인원수, 예상기간(일), 여행갈 년도와 월 정보
+		//입력 : 이름, 인원수, 예상기간(일), 여행갈 년도와 월 정보..
 		
 		
 				String name = "피카츄";
