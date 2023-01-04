@@ -9,7 +9,6 @@ public class Test02_final {
 		
 		int[] data=new int[] {10,20,30,40,50}; 
 
-//		System.out.println(data.length);
 
 		for(int i=0;i<data.length;i++) {
 			System.out.println(data[i]); //시작점+i칸
@@ -20,6 +19,7 @@ public class Test02_final {
 		}
 		
 		System.out.println(total);
+//		System.out.println(data.length);
 		
 	}
 
