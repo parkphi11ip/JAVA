@@ -17,12 +17,22 @@ public class CoffeeShop {
 	}
 	
 	void output() {
+		if(this.event) {
 		System.out.println("");
 		System.out.println(this.name+" | ");
 		System.out.println(this.category+" | ");
-		System.out.println(this.price+" | ");
-		System.out.println(this.event+" | ");
+		System.out.println(this.price*0.8+" | ");
+		System.out.println("(행사중)");
 
+		}else {
+			System.out.println("");
+			System.out.println(this.name+" | ");
+			System.out.println(this.category+" | ");
+			System.out.println(this.price+" | ");
+			System.out.println(" - ");
+		}
 	}
 	
 }
+	
+
