@@ -6,6 +6,7 @@ public class CoffeeShop {
 	int price;
 	boolean event;
 
+	int rate=20;
 	
 	void setting(String name, String category, 
 			int price, boolean event) {
@@ -21,7 +22,7 @@ public class CoffeeShop {
 		System.out.println("");
 		System.out.println(this.name+" | ");
 		System.out.println(this.category+" | ");
-		System.out.println(this.price*0.8+" | ");
+		System.out.println(this.price*(100-rate)/100+" | ");
 		System.out.println("(행사중)");
 
 		}else {
