@@ -1,4 +1,4 @@
-package oop.test01;
+package oop.test1;
 
 public class Test01 {
 
