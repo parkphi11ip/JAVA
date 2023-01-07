@@ -1,3 +1,3 @@
-# KH정보교육원 JAVA 풀스택 과정
+#  JAVA & Spring
 
-22-12-28 ~ JAVA ing.
+## 22-12-28 start
