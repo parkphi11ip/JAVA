@@ -37,7 +37,7 @@ public class Test01 {
 		System.out.println(u3.name+" | "+u3.goal);
 		System.out.println(u4.name+" | "+u4.goal);
 		
-		
+		//aye
 		
 	}
 
