@@ -63,7 +63,20 @@ public class Student {
 		return getTotal()/3.0;
 	}
 	
-	
+	public String getABC() {
+		if(getAver()>=90 && getAver()<=100) {
+			return "A";
+		}
+		else if(getAver() >=80 && getAver()<90) {
+			return "B";
+		}
+		else if(getAver() >=70 && getAver()<80) {
+			return "C";
+		}
+		else {
+			return "F";
+		}
+	}
 	public Student(String name,int grade,int kor,int eng,int math) {
 		this.setName(name);
 		this.setGrade(grade);
@@ -74,13 +87,16 @@ public class Student {
 	
 	public void output() {
 		System.out.println();
-		System.out.println(this.name);
-		System.out.println(this.grade);
-		System.out.println(this.kor);
-		System.out.println(this.eng);
-		System.out.println(this.math);
-		System.out.println(getTotal());
-		System.out.println(getAver());
+		System.out.println("< student grade info >");
+		System.out.println();
+		System.out.println("name : "+this.name);
+		System.out.println("class : "+this.grade);
+		System.out.println("kor : "+this.kor);
+		System.out.println("eng : "+this.eng);
+		System.out.println("math : "+this.math);
+		System.out.println("total score : "+getTotal());
+		System.out.println("average : "+getAver());
+		System.out.println("grade point : "+getABC());
 
 	}
 	

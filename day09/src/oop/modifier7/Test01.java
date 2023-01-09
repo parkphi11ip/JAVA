@@ -12,8 +12,6 @@ public class Test01 {
 		w.output();
 		e.output();
 		
-		
-		
 	}
 
 }
