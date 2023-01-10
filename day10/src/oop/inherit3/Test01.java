@@ -4,23 +4,32 @@ public class Test01 {
 
 	public static void main(String[] args) {
 		
-		Browser a = new Browser();
+		Chrome c = new Chrome();
+		c.setUrl("https://www.google.com");
+		c.refresh();
+		c.move();
+		c.develop();
+		c.chromeStore();
+		System.out.println(c.getUrl());
 		
-		a.setUrl("www.dad.com");
-		a.setMove("qd");
+		System.out.println("-------------------------");
+		Edge e = new Edge();
+		e.setUrl("https://www.kakao.com");
+		e.refresh();
+		e.move();
+		e.fullScreen();
+		System.out.println(e.getUrl());
 		
-		a.url();
-		
-			System.out.println();
-		// galaxy 객체를 생성.
-		
-		Chrome b = new Chrome();
-		
-		b.url();
-		b.move();
-		b.refresh();
-		b.chromeStore();
-		b.develop();
+		System.out.println("-------------------------");
+		Whale w = new Whale();
+		w.setUrl("https://www.naver.com");
+		w.refresh();
+		w.move();
+		w.papago();
+		w.naverSearch();
+		System.out.println(w.getUrl());
+	
+	
 		
 	}
 }
