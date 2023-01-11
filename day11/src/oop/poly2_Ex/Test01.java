@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Test01 {
 	public static void main(String[] args) {
-		//다형성 사용해서 풀이
+		
+		//다형성 사용해서 풀이 : 지향
+		
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("(1:전사,2:마법사,3:궁수) 선택 : ");
