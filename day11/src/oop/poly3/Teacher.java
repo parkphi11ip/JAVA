@@ -1,5 +1,5 @@
 package oop.poly3;
 
-public class Teacher {
-
+public abstract class Teacher {
+	public abstract void teach();
 }
