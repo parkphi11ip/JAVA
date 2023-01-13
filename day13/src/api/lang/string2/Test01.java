@@ -8,8 +8,7 @@ public class Test01 {
 		
 		//String의 문제점
 		// 문자열이 불변이라는 성질 때문에 합성에서 문제가 생김
-		
-		//String n
+
 		
 		StringBuffer buffer = new StringBuffer();	
 //		StringBuilder buffer = new StringBuilder();
